@@ -1,0 +1,27 @@
+body{
+    background-color: deepskyblue;
+}
+h2{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.container{
+    width: 475px;
+    background-color:lightpink;
+    margin: 100px auto;
+    padding:10px;
+    height: 475px;
+    border:  black;
+}
+.items{
+
+    padding: 10px;
+    text-align: center;
+}
+.btn{
+    padding: 15px;
+    border: solid black;
+}
+
+
+

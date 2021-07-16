@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Calculator</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+         integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+         <link rel="stylesheet" href="./calci.css">
+        <script src="./calci.js"></script>
+    </head>
+    <body>
+        <h2>My Calculator</h2>
+        <div class="container" >
+            <div class="items" >
+                <input id="ip" class="btn" type="text" value=""><br><br>
+                <button id="clear" class="btn btn-light" type="button" value="C" onclick="clr()">C</button>
+                <button id="bksp" class="btn btn-light" type="button" value="back" onclick="bcksp()">⌫</button><br><br>
+                <button class="btn btn-light" type="button" value="7" onclick="show(7)">7</button>
+                <button class="btn btn-light" type="button" value="8" onclick="show(8)">8</button>
+                <button class="btn btn-light" type="button" value="9" onclick="show(9)">9</button>
+                <button class="btn btn-light" type="button" value="/" onclick="show('/')">/</button>
+            </div>
+            <div class="items">
+                <button class="btn btn-light"type="button" value="4" onclick="show(4)">4</button>
+                <button class="btn btn-light" type="button" value="5" onclick="show(5)">5</button>
+                <button class="btn btn-light" type="button" value="6" onclick="show(6)">6</button>
+                <button class="btn btn-light" type="button" value="*" onclick="show('*')">*</button>
+            </div>
+            <div class="items">
+                <button class="btn btn-light" type="button" value="1" onclick="show(1)">1</button>
+                <button class="btn btn-light" type="button" value="2" onclick="show(2)">2</button>
+                <button class="btn btn-light" type="button" value="3" onclick="show(3)">3</button>
+                <button class="btn btn-light" type="button" value="-" onclick="show('-')">-</button>
+            </div>
+            <div class="items" >
+                <button class="btn btn-light" type="button" value="9" onclick="show(0)">0</button>
+                <button class="btn btn-light" type="button" value="8" onclick="show('.')">.</button>
+                <button class="btn btn-light" type="button" value="=" onclick="find()">=</button>
+                <button class="btn btn-light" type="button" value="+" onclick="show('+')">+</button>
+             </div>
+        
+        </div>
+    </body>
+</html>
